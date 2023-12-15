@@ -23,7 +23,7 @@
 
 .textnavbar {
         font-family: 'PT Sans', sans-serif!important;        
-    height: 50px;
+
     font-size: 25px;
     color: black;
     font-weight: 700;
@@ -76,7 +76,11 @@
 a {
     text-decoration: none !important;
     color: white !important;
-}}
+}
+.dropdown-item {
+    background-color: white!important;
+}
+}
 
 @media only screen and (max-width: 765px) {
     .navbar { 

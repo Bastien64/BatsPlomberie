@@ -395,7 +395,7 @@ margin-bottom: 25px;
 
     #navbarbox {
         z-index: 99; /* z-index inférieur pour navbarbox */
-        margin-top: 85px;
+        margin-top: 120px;
     }
     /*DIV1*/
     #div1 {
@@ -403,13 +403,13 @@ margin-bottom: 25px;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 100vh;
+
     }
 
     #bluediv1 {
         background: rgba(56, 113, 193, 0.52);
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -552,9 +552,10 @@ margin-bottom: 25px;
 
     .div3gauche {
         width: 100%;
-        height: 100vh;
+        padding-bottom: 20px;
         background: #3871C1;
         z-index: 1;
+
     }
 
     .div3gauche>h1 {
@@ -577,6 +578,7 @@ margin-bottom: 25px;
         font-weight: 400;
         line-height: normal;
         width: 75%;
+        
     }
 
     .chiffrediv3gauche {
