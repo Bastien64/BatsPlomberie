@@ -30,3 +30,15 @@ divbleutopXhr.onreadystatechange = function () {
     }
 };
 divbleutopXhr.send();
+
+
+// Charger le contact
+var contactContainer = document.getElementById("contactbox");
+var contactXhr = new XMLHttpRequest();
+contactXhr.open("GET", "../htmlelement/contact.html", true);
+contactXhr.onreadystatechange = function () {
+    if (contactXhr.readyState === 4 && contactXhr.status === 200) {
+        contactContainer.innerHTML = contactXhr.responseText;
+    }
+};
+contactXhr.send();
