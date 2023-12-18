@@ -93,15 +93,19 @@
 
     .div2 {
         background-image: url(../photo/fondDiv2.jpg);
+
     }
 
     .greydiv2 {
         background: rgba(255, 255, 255, 0.651);
+        padding-bottom: 50px;
         width: 100%;
-        height: 400px;
+        height: 550px;
         display: flex;
         flex-direction: column;
     }
+
+
 
     .greydiv2>h1 {
         color: #3871C1;
@@ -162,23 +166,27 @@
     .div3 {
         display: flex;
         flex-direction: row;
+            position: relative;
+
     }
 
     .div3gauche {
-        width: 50%;
-
+        width: 60%;
         background: #3871C1;
-
+        z-index: 1;
+        padding-top: 5%;
     }
 
     .div3gauche>h1 {
         color: #ffffff;
         text-align: center;
         font-family: 'PT Sans', sans-serif !important;
-        font-size: 75px !important;
+        font-size: 50px !important;
         font-weight: 900 !important;
         line-height: normal;
         margin-top: 7vh !important;
+        width: 80%;
+        margin: auto !important;
     }
 
     .div3gauche>p {
@@ -190,76 +198,51 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        width: 55%;
+        margin-top: 20px !important;
+        margin-right: 50px;
+        width: 65%;
+
     }
 
-    .chiffrediv3gauche {
-        margin-top: 50px;
-    }
 
-    .chiffrediv3gauche p {
-        color: #ffffff;
-        text-align: start;
-        margin: auto !important;
-        font-family: 'PT Sans', sans-serif !important;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        width: 40%;
-        margin-top: 20px;
-    }
 
     .div3droite {
-        width: 50%;
+        width: 40%;
 
-
+        z-index: 98;
         margin-top: 7vh !important;
     }
 
-    
     .elementdiv3droite {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
-        justify-content: center;}
-    .elementdiv3droite>h1 {
-        color: #3871C1;
-        text-align: center;
-        font-family: PT Sans;
-        font-size: 75px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        
+        justify-content: center;
     }
+
 
     .photoflex {
-        display: flex;
-        flex-direction: row;
         margin-top: 20px;
-        margin-right: 16vw;
+        margin-right: 14vw;
+    }
+
+    .photoflex > img {
+        width: 700px;
+        height: 530px; 
+        border-radius: 20px;
+
+
+
 
 
     }
 
-    .allphotodiv {
-        width: 316px;
-        height: 206px;
-        flex-shrink: 0;
-    }
+    
 
-    .photodiv3droite {
-        margin-right: 50px;
-    }
-    .photodiv3droite2,
-    .photodiv3gauche2 {
-        margin-top: 20px;
 
-    }
 
     .boutonJaunediv3 {
-        width: 556px;
+        width: 250px;
         height: 58px;
         flex-shrink: 0; 
         border-radius: 10px;
@@ -272,6 +255,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        text-align: center;
         margin: auto !important;
         margin-top: 20px !important;
         ;
@@ -287,8 +271,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-                margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-top: 2%;
     } 
 
     .div4 h1 {
@@ -489,15 +473,12 @@ margin-bottom: 25px;
 
     .div2 {
         background-image: url(../photo/fondDiv2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .greydiv2 {
         background: rgba(255, 255, 255, 0.651);
-   
         width: 100%;
-        height: 600px;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
@@ -616,62 +597,37 @@ margin-bottom: 25px;
         width: 100%;
 
         z-index: 98;
-        margin-top: 7vh !important;
+ 
     }
 
-    .elementdiv3droite>h1 {
-        color: #3871C1;
-        text-align: center;
-
-        font-size: 75px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        
-    }
-
-    .photoflex {
+    .elementdiv3droite {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .photoflex {
+
         margin-top: 20px;
-
-
-
-    }
-
-    .allphotodiv {
-        width: 316px;
-        height: 206px;
-        flex-shrink: 0;
-    }
-
- .margintopphoto {
-    margin-top: 10px;
- }
-
-    .boutonJaunediv3 {
         width: 90%;
-        height: 58px;
-        flex-shrink: 0; 
-        border-radius: 10px;
-        background: rgb(255, 184, 0);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #FFF;
-        font-weight: bold;
-        font-size: 18px !important;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: auto !important;
-        margin-top: 20px !important;
+    }
+
+    .photoflex > img {
+        width: 90vw ;
+        border-radius: 20px;
+        margin: auto;
+    }
+    .boutonJaunediv3 {
+        width: 0px;
+        color: #FFF
         ;
     }
 
-    .boutonJaunediv3:hover {
-        background: rgb(253, 202, 74);
+    .boutonJaunediv3 > p {
+        color: #FFF;
+        font-size: 0px;
+
     }
 
     /*DIV4*/

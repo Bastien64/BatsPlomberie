@@ -80,9 +80,16 @@ a {
 .dropdown-item {
     background-color: white!important;
 }
+
+ul {
+    border: white!important;
+}
 }
 
 @media only screen and (max-width: 765px) {
+    ul {
+        border: white!important;
+    }
     .navbar { 
         width: 100vw;
 

@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @media only screen and (min-width: 767px) {
+
     #divbleutopbox,
     #navbarbox {
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 99; /* Assurez-vous que le z-index du divbleutopbox est supérieur à celui de navbarbox */
+        z-index: 99;
+        /* Assurez-vous que le z-index du divbleutopbox est supérieur à celui de navbarbox */
     }
 
     #navbarbox {
-        z-index: 99; /* z-index inférieur pour navbarbox */
+        z-index: 99;
+        /* z-index inférieur pour navbarbox */
         margin-top: 85px;
     }
+
     /*DIV1*/
     #div1 {
         background-image: url(../photo/phototop.jpg);
@@ -50,7 +54,7 @@
         color: #ffffff !important;
         text-align: center;
         font-family: 'PT Sans', sans-serif !important;
-        font-size: 75px !important;
+        font-size: 45px !important;
         font-weight: 900 !important;
         line-height: normal;
         margin-top: 20px !important;
@@ -81,7 +85,7 @@
         align-items: center;
         justify-content: center;
         margin: auto !important;
-        margin-top: 75px !important;
+        margin-top: 25px !important;
         margin-left: 500px !important;
     }
 
@@ -97,11 +101,13 @@
 
     .greydiv2 {
         background: rgba(255, 255, 255, 0.651);
+   
         width: 100%;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: column;
     }
+
 
     .greydiv2>h1 {
         color: #3871C1;
@@ -162,124 +168,97 @@
     .div3 {
         display: flex;
         flex-direction: row;
+        position: relative;
+
     }
 
     .div3gauche {
         width: 50%;
-
         background: #3871C1;
-
+        z-index: 1;
+        padding-top: 5vh !important;
     }
 
     .div3gauche>h1 {
         color: #ffffff;
         text-align: center;
         font-family: 'PT Sans', sans-serif !important;
-        font-size: 75px !important;
+        font-size: 60px !important;
         font-weight: 900 !important;
         line-height: normal;
         margin-top: 7vh !important;
-    }
-
-    .div3gauche>p {
-        color: #ffffff;
-        text-align: center;
+        width: 80%;
         margin: auto !important;
-        font-family: 'PT Sans', sans-serif !important;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        width: 55%;
     }
 
-    .chiffrediv3gauche {
-        margin-top: 50px;
-    }
+    .liclass {
+        margin-top: 2%;
+        color: #FFF;
+font-family: PT Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+width: 80%;
+margin-left: 2%;
 
-    .chiffrediv3gauche p {
-        color: #ffffff;
-        text-align: start;
-        margin: auto !important;
-        font-family: 'PT Sans', sans-serif !important;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        width: 40%;
-        margin-top: 20px;
     }
 
     .div3droite {
         width: 50%;
 
-
-        margin-top: 7vh !important;
+        z-index: 98;
+        padding-top: 5vh !important;
     }
 
-    
     .elementdiv3droite {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
-        justify-content: center;}
+        justify-content: center;
+
+    }
+
     .elementdiv3droite>h1 {
         color: #3871C1;
         text-align: center;
         font-family: PT Sans;
-        font-size: 75px;
+        font-size: 55px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        
+
     }
+
+    .textlist {
+        align-items: start!important;
+        text-align: start!important;
+    }
+
+    .textlist p {
+        color: #4F80C6; 
+font-family: PT Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+    }
+
 
     .photoflex {
-        display: flex;
-        flex-direction: row;
         margin-top: 20px;
-        margin-right: 16vw;
-
-
+        margin-right: 20vw;
+    
     }
 
-    .allphotodiv {
-        width: 316px;
-        height: 206px;
-        flex-shrink: 0;
+    .photoflex>img {
+        width: 700px;
+        height: 530px; 
+        border-radius: 20px;
     }
 
-    .photodiv3droite {
-        margin-right: 50px;
-    }
-    .photodiv3droite2,
-    .photodiv3gauche2 {
-        margin-top: 20px;
 
-    }
 
-    .boutonJaunediv3 {
-        width: 556px;
-        height: 58px;
-        flex-shrink: 0; 
-        border-radius: 10px;
-        background: rgb(255, 184, 0);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #FFF;
-        font-weight: bold;
-        font-size: 25px !important;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: auto !important;
-        margin-top: 20px !important;
-        ;
-    }
-
-    .boutonJaunediv3:hover {
-        background: rgb(253, 202, 74);
-    }
 
     /*DIV4*/
     .div4 {
@@ -287,9 +266,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-                margin-top: 2%;
+        margin-top: 2%;
         margin-bottom: 2%;
-    } 
+    }
 
     .div4 h1 {
         color: #3871C1;
@@ -303,17 +282,17 @@
 
     .div4 img {
         width: 128px;
-height: 128px; 
-margin-bottom: 25px;
+        height: 128px;
+        margin-bottom: 25px;
     }
 
-    .div4 p  {
+    .div4 p {
         color: #3871C1;
 
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
-        line-height: normal; 
+        line-height: normal;
     }
 
     /*DIV5*/
@@ -341,7 +320,7 @@ margin-bottom: 25px;
         line-height: normal;
         margin-top: 7vh !important;
     }
-    
+
     .div5gauche>p {
         color: #ffffff;
         text-align: center;
@@ -353,8 +332,8 @@ margin-bottom: 25px;
         line-height: normal;
         width: 65%;
     }
-    
-    
+
+
     .div5droite {
         width: 60%;
         background-color: #3871C1;
@@ -366,6 +345,7 @@ margin-bottom: 25px;
 
 
     }
+
     .divformulaire {
         display: flex;
         flex-direction: column;
@@ -396,18 +376,22 @@ margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 765px) {
+
     #divbleutopbox,
     #navbarbox {
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 99; /* Assurez-vous que le z-index du divbleutopbox est supérieur à celui de navbarbox */
+        z-index: 99;
+        /* Assurez-vous que le z-index du divbleutopbox est supérieur à celui de navbarbox */
     }
 
     #navbarbox {
-        z-index: 99; /* z-index inférieur pour navbarbox */
+        z-index: 99;
+        /* z-index inférieur pour navbarbox */
         margin-top: 120px;
     }
+
     /*DIV1*/
     #div1 {
         background-image: url(../photo/phototop.jpg);
@@ -489,15 +473,12 @@ margin-bottom: 25px;
 
     .div2 {
         background-image: url(../photo/fondDiv2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .greydiv2 {
         background: rgba(255, 255, 255, 0.651);
-   
         width: 100%;
-        height: 600px;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
@@ -565,6 +546,7 @@ margin-bottom: 25px;
     }
 
     .div3gauche {
+        padding-top: 2%;
         width: 100%;
         padding-bottom: 20px;
         background: #3871C1;
@@ -579,100 +561,77 @@ margin-bottom: 25px;
         font-size: 55px !important;
         font-weight: 900 !important;
         line-height: normal;
-        margin-top: 7vh !important;
+
     }
 
-    .div3gauche>p {
-        color: #ffffff;
-        text-align: center;
-        margin: auto !important;
-        font-family: 'PT Sans', sans-serif !important;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        width: 75%;
-        
+    .liclass {
+        margin-top: 2%;
+        color: #FFF;
+font-family: PT Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+width: 80%;
+margin-left: 2%;
+
     }
 
-    .chiffrediv3gauche {
-        margin-top: 50px;
-    }
 
-    .chiffrediv3gauche p {
-        color: #ffffff;
-        text-align: start;
-        margin: auto !important;
-        font-family: 'PT Sans', sans-serif !important;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        width: 40%;
-        margin-top: 10px;
-    }
+
 
     .div3droite {
         width: 100%;
-
+        margin-top: 2%;
         z-index: 98;
-        margin-top: 7vh !important;
+
     }
 
     .elementdiv3droite>h1 {
+
         color: #3871C1;
         text-align: center;
-
-        font-size: 75px;
+        font-family: PT Sans;
+        font-size: 35px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        
+
     }
 
-    .photoflex {
+    .elementdiv3droite {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .textlist {
+        color: #4F80C6;
+
+        font-family: PT Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    .photoflex {
+
         margin-top: 20px;
-
-
-
-    }
-
-    .allphotodiv {
-        width: 316px;
-        height: 206px;
-        flex-shrink: 0;
-    }
-
- .margintopphoto {
-    margin-top: 10px;
- }
-
-    .boutonJaunediv3 {
         width: 90%;
-        height: 58px;
-        flex-shrink: 0; 
-        border-radius: 10px;
-        background: rgb(255, 184, 0);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: #FFF;
-        font-weight: bold;
-        font-size: 18px !important;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: auto !important;
-        margin-top: 20px !important;
-        ;
     }
 
-    .boutonJaunediv3:hover {
-        background: rgb(253, 202, 74);
+    .photoflex>img {
+        width: 90vw;
+        border-radius: 20px;
+        margin: auto;
     }
+
+    .margintopphoto {
+        margin-top: 10px;
+     }
+    
+
 
     /*DIV4*/
     .div4 {
@@ -680,7 +639,7 @@ margin-bottom: 25px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    } 
+    }
 
     .div4 h1 {
         color: #3871C1;
@@ -694,17 +653,17 @@ margin-bottom: 25px;
 
     .div4 img {
         width: 50px;
-height: 50px; 
-margin-bottom: 25px;
+        height: 50px;
+        margin-bottom: 25px;
     }
 
-    .div4 p  {
+    .div4 p {
         color: #3871C1;
 
         font-size: 30px;
         font-style: normal;
         font-weight: 700;
-        line-height: normal; 
+        line-height: normal;
     }
 
     /*DIV5*/
@@ -732,7 +691,7 @@ margin-bottom: 25px;
         line-height: normal;
 
     }
-    
+
     .div5gauche>p {
         color: #ffffff;
         text-align: center;
@@ -744,8 +703,8 @@ margin-bottom: 25px;
         line-height: normal;
         width: 95%;
     }
-    
-    
+
+
     .div5droite {
         width: 100%;
         background-color: #3871C1;
@@ -757,6 +716,7 @@ margin-bottom: 25px;
 
 
     }
+
     .divformulaire {
         display: flex;
         flex-direction: column;
@@ -769,7 +729,7 @@ margin-bottom: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         margin-bottom: 20px !important;
     }
 
