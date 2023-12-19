@@ -166,6 +166,8 @@
         display: flex;
         flex-direction: row;
             position: relative;
+            
+
 
     }
 
@@ -174,6 +176,8 @@
         background: #3871C1;
         z-index: 1;
         padding-top: 5%;
+        padding-bottom: 5%;
+
     }
 
     .div3gauche>h1 {
@@ -226,8 +230,8 @@
     }
 
     .photoflex > img {
-        width: 700px;
-        height: 530px; 
+        width: 600px;
+        height: 430px; 
         border-radius: 20px;
 
 
@@ -249,7 +253,8 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         color: #FFF;
         font-weight: bold;
-        font-size: 25px !important;
+        font-size: 20px;
+
         display: flex;
         flex-direction: row;
         align-items: center;

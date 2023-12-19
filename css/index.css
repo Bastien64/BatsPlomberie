@@ -166,7 +166,7 @@
 
     .div3gauche {
         width: 50%;
-
+        padding-bottom: 5%;
         background: #3871C1;
 
     }
@@ -212,7 +212,7 @@
 
     .div3droite {
         width: 50%;
-
+        padding-bottom: 2%;
 
         margin-top: 7vh !important;
     }
@@ -222,11 +222,12 @@
         display: flex;
         flex-direction: column; 
         align-items: center;
-        justify-content: center;}
+        justify-content: center;
+    text-align: center;}
     .elementdiv3droite>h1 {
         color: #3871C1;
         text-align: center;
-        font-family: PT Sans;
+
         font-size: 75px;
         font-style: normal;
         font-weight: 700;
@@ -259,7 +260,7 @@
     }
 
     .boutonJaunediv3 {
-        width: 556px;
+        width: 400px;
         height: 58px;
         flex-shrink: 0; 
         border-radius: 10px;
@@ -267,7 +268,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         color: #FFF;
         font-weight: bold;
-        font-size: 25px !important;
+        font-size: 20px!important;
         display: flex;
         flex-direction: row;
         align-items: center;
