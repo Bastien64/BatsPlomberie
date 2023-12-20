@@ -88,6 +88,10 @@
 .boutonJaunediv1:hover {
     background: rgb(253, 202, 74);
 }
+.boutonJaunediv1 p {
+    text-align: center;
+    margin: 0; /* Ajoutez cela pour supprimer les marges par défaut du paragraphe */
+}
     
     /*DIV4*/
     .div4 {
