@@ -98,7 +98,7 @@
     .greydiv2 {
         background: rgba(255, 255, 255, 0.651);
         width: 100%;
-        height: 400px;
+        height: 450px;
         display: flex;
         flex-direction: column;
     }
